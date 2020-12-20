@@ -13,7 +13,7 @@ import Avatar from '@material-ui/core/Avatar';
 
 import CardMedia from '@material-ui/core/CardMedia';
 import CardActionArea from '@material-ui/core/CardActionArea';
-
+import FlightIcon from '@material-ui/icons/Image';
 import ImageIcon from '@material-ui/icons/Image';
 import WorkIcon from '@material-ui/icons/Work';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
@@ -36,7 +36,7 @@ Titulo3: {
   height: 50,
   textAlign: 'center',
   color: 'white',
-  backgroundColor: '#212121',
+  backgroundColor: 'gray',
 },
 heading: {
   textSize: 21,
@@ -77,6 +77,7 @@ export const MisDatosM = (props) => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
+          
           <Typography className={classes.heading}><h3>{props.titulo}</h3></Typography>
         </AccordionSummary>
         <List className={classes.root}>
@@ -119,7 +120,7 @@ export const MisDatosM = (props) => {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <BeachAccessIcon />
+            <FlightIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text}  primary="Posiilidad de Reencidencia" secondary="Si"  />
