@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     color: "black",
   },
   heading2: {
-    fontSize: theme.typography.pxToRem(7),
+    fontSize: theme.typography.pxToRem(8),
     flexBasis: '53.33%',
     flexShrink: 0,
     color: "GREY",
@@ -97,6 +97,8 @@ export const CartitaGeoM = (props) => {
 
         <AccordionDetails>
         <Typography className={classes.p}>
+        {props.cv.otros}
+        <br />
         {props.cv.detalle1}
         <br />
         {props.cv.detalle2}

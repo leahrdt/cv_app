@@ -72,6 +72,8 @@ export const CartitaDevM = (props) => {
 
         <AccordionDetails>
           <Typography className={classes.p}>
+          {props.cv.otros}
+        <br />
           {props.cv.detalle1}
         <br />
         {props.cv.detalle2}

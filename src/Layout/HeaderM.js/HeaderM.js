@@ -28,12 +28,23 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
   },
   boton: {
-    textDecoration:'none',
     flexGrow: 1,
     textSize: 90,
     textAlign: 'center',
     color: 'white',
     borderColor: 'white',
+
+      border: 0.5,
+      borderRadius: 1,
+      
+      width:'50%',
+      boxShadow: '1px 1px 1px 1px #424242',
+    
+  },
+  boton2: {
+    color: 'white',
+    textDecoration: 0,
+    
   },
 }));
 
@@ -64,10 +75,10 @@ export const HeaderM = () => {
 
             <Typography variant="h5" className={classes.boton}>
             <Button color="inherit" className={classes.boton}>
-            <NavLink to="/" exact className={classes.boton}>Geologo</NavLink>
+            <NavLink to="/" exact className={classes.boton2}>Geologo</NavLink>
             </Button>
             <Button color="inherit" className={classes.boton}>
-            <NavLink to="/123" exact className={classes.boton}>Desarrollador</NavLink>
+            <NavLink to="/123" exact className={classes.boton2}>Desarrollador</NavLink>
             </Button>
             </Typography>
             </Toolbar>
