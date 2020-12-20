@@ -28,9 +28,12 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
   },
   boton: {
+    textDecoration:'none',
     flexGrow: 1,
+    textSize: 90,
     textAlign: 'center',
     color: 'white',
+    borderColor: 'white',
   },
 }));
 
@@ -52,7 +55,7 @@ export const HeaderM = () => {
             <Toolbar>
 
             <Typography variant="h5" className={classes.title}>
-                Leandro Fernandez Reinhardt 
+                ¡¡¡ Piedra Libre !!!
             </Typography>
             </Toolbar>
         </AppBar>
@@ -60,10 +63,10 @@ export const HeaderM = () => {
             <Toolbar className={classes.subtitle}>
 
             <Typography variant="h5" className={classes.boton}>
-            <Button color="inherit">
+            <Button color="inherit" className={classes.boton}>
             <NavLink to="/" exact className={classes.boton}>Geologo</NavLink>
             </Button>
-            <Button color="inherit" >
+            <Button color="inherit" className={classes.boton}>
             <NavLink to="/123" exact className={classes.boton}>Desarrollador</NavLink>
             </Button>
             </Typography>

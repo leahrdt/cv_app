@@ -3,6 +3,8 @@ import Hidden from '@material-ui/core/Hidden';
 import Grid from '@material-ui/core/Grid';
 import {MisDatosDev} from '../../../Componentes/MisDatosDev';
 import {TitulosDev} from '../../../Componentes/TitulosDev';
+
+import {TitulosDevM} from '../../../Componentes/TitulosDevM';
 import {CartitaDev} from '../../../Componentes/CartitaDev';
 import {CartitaDevM} from '../../../Componentes/CartitaDevM';
 import {MisDatosM} from '../../../Componentes/MisDatosM';
@@ -70,7 +72,7 @@ componentDidMount() {
             titulo={MiDat}
             pic = {picGeo}
             />
-            <TitulosDev
+            <TitulosDevM
             titulo={MiProyect}/>
             { miproyec.map(miproyec => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
             <CartitaDevM
@@ -81,7 +83,7 @@ componentDidMount() {
             )) }
 
             
-            <TitulosDev
+            <TitulosDevM
             titulo={MiEst}/>
             { miexpdev.map(miexpdev => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
             <CartitaDevM

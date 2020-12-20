@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
     color: "black",
   },
 p: {
-  fontSize: theme.typography.pxToRem(9),
+  fontSize: theme.typography.pxToRem(12),
   flexBasis: '95%',
   flexShrink: 0,
   borderRadius: 1,

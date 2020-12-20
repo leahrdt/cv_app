@@ -4,6 +4,8 @@ import Grid from '@material-ui/core/Grid';
 import {MisDatos} from '../../../Componentes/MisDatos';
 import {Cartita} from '../../../Componentes/Cartita';
 import {Titulos} from '../../../Componentes/Titulos';
+
+import {TitulosM} from '../../../Componentes/TitulosM';
 import {Space} from '../../../Componentes/Space';
 import {getMiCarrera} from '../../../api/MiCarrera'
 import {getMiExperiencia} from '../../../api/MiExperiencia'
@@ -22,7 +24,7 @@ export class CvGeo extends React.PureComponent {
         midata: [],
         miexp: [],
         miexpdev: [],
-        picGeo: ["https://guillaumebreux.com/avatar.png"],
+        picGeo: ["https://i.ibb.co/7Rz5dGB/unnamed.jpg"],
         dni: [35097033],
         nac: ["Argentino"],
         lic: ["Si - A1,4 -B2"],
@@ -60,7 +62,7 @@ componentDidMount() {
         pic = {picGeo}
             
         />
-        <Titulos
+        <TitulosM
         titulo={MiExp}/>
         { miexp.map(miexp => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
         <CartitaGeoM
@@ -71,7 +73,7 @@ componentDidMount() {
         )) }
 
             
-        <Titulos
+        <TitulosM
         titulo={MiEst}/>
         { midata.map(midata => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
         <CartitaGeoM
