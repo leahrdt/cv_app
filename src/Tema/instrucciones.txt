@@ -1,0 +1,31 @@
+el componente es el siguiente, los colores obviamente varian.
+se pueden encontrar mas colores aca: https://material-ui.com/customization/color/
+
+import {createMuiTheme} from '@material-ui/core/styles'
+import purple from '@material-ui/core/colors/purple'
+import lightGreen from '@material-ui/core/colors/lightGreen'
+const theme = createMuiTheme({
+    palette: {
+        primary:{
+            main: lightGreen[300]
+        },
+        secundary:{
+            main:
+                purple[900]
+            }
+        }
+    }
+)
+export default theme;
+
+Importante, poner en el archivo principal donde estan todos los componentes lo siguiente.
+
+import theme from '../../Tema/TemaConfig'
+
+y encerrar todos los comopnentes entre 
+
+<ThemeProvider theme={theme}>
+
+</ThemeProvider>
+
+.
