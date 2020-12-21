@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
     paperContainer: {
-        height: '1200px',
+        height: '1500px',
         opacity: 0.8,
         backgroundImage: `url(${Image})`,
         backgroundColor: 'black',

@@ -5,7 +5,7 @@ export const getMiExperiencia = () => [
     lugar: 'GEOPROCESADOS ARGENTINA',
     tiempo: '   2019 - 2020',
     lugaresp: '',
-    otros: 'FFunciones Desarrolladas',
+    otros: 'Funciones Desarrolladas',
     detalle1: '•	Evaluaciones petrofísicas determinística y probabilística (multimineral) en yacimientos convencionales y no-convencionales (software Geolog - Techlog).',
     detalle2: '•	Análisis de datos de laboratorio.',
     detalle3: '•	Control de calidad de registros de pozos, edición, predicción y puesta en profundidad.  ',
