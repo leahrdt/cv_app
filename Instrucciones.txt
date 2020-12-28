@@ -1,0 +1,45 @@
+1- Crear Proyecto: npx create-react-app book-store
+
+router: npm i react-router react-router-dom
+
+redux: npm install --save redux react-redux
+
+
+- - - - -
+Diseño
+
+Material UI
+
+installs
+- npm install @material-ui/core
+- npm install @material-ui/icons
+
+
+imports
+
+-import 
+
+import general:              import Button from '@material-ui/core/Button';
+
+icono (depende del icono):   import DeleteIcon from '@material-ui/icons/Delete';
+
+styles :                     import {makeStyles} from '@material-ui/core/styles';
+
+
+
+
+Para subir a github, una ves q tenes el proyecto normal en github, no importa el nombre del directorio
+
+instalas el npm de github (buscar)
+poner dentro de packajason en scrip
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
+    y antes de name
+    "homepage": "https://leahrdt.github.io/"nomre del repo",
+
+    y ejecutar
+
+    (lo de siempre para subir el proyecto, y despues..)
+    npm run build
+    npm run deploy

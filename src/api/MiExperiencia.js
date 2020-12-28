@@ -1,12 +1,12 @@
 export const getMiExperiencia = () => [
   {
     id: '4',
-    titulo: 'GEOLOGO - PETROFISICO',
+    titulo: 'GEÓLOGO - PETROFÍSICO',
     lugar: 'GEOPROCESADOS ARGENTINA',
-    tiempo: '   2019 - 2020',
+    tiempo: '   2019 - Act',
     lugaresp: '',
     otros: 'Funciones Desarrolladas',
-    detalle1: '•	Evaluaciones petrofísicas determinística y probabilística (multimineral) en yacimientos convencionales y no-convencionales (software Geolog - Techlog).',
+    detalle1: '•	Evaluaciones petrofísicas determinística y probabilística (multimineral) en yacimientos convencionales y no-convencionales (software: Geolog - Techlog).',
     detalle2: '•	Análisis de datos de laboratorio.',
     detalle3: '•	Control de calidad de registros de pozos, edición, predicción y puesta en profundidad.  ',
     detalle4: '•	Generación de Electrofacies.',
@@ -15,9 +15,9 @@ export const getMiExperiencia = () => [
   {
     id: '5',
     titulo: 'SECRETARIO ADMINISTRATIVO',
-    lugar: 'POSGRADO DE GEOCIENCIAS DE EXPLORACION Y DESARROLLO DE HIDROCARBUROS',
+    lugar: 'POSGRADO DE GEOCIENCIAS EN EXPLORACIÓN Y DESARROLLO DE HIDROCARBUROS',
     plugaresp: '',
-    tiempo: '   2019 - 2020',
+    tiempo: '   2018 - 2019',
     otros: 'Funciones Desarrolladas:',
     detalle1: '•	Control y coordinación de clases, apoyo de la gestión de softwares y en la elaboración de trabajos finales.',
     detalle2: '•	Atención telefónica, web y de recepción. Gestión de correspondencia. ',
