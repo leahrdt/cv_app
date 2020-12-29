@@ -18,8 +18,9 @@ export const Container = () => {
 
 
     <Switch> 
-    <Route path="/123" component={ContDev}/> 
-    <Route path="/" component={ContGeo}/> 
+    
+    <Route path="/123" component={ContGeo}/> 
+    <Route path="/" component={ContDev}/> 
     </Switch>  
 
 

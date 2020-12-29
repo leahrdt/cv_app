@@ -50,10 +50,10 @@ export const Header = () => {
           </Typography>
 
           <Button color="inherit">
-          <NavLink to="/" exact className={classes.boton}>Geologo</NavLink>
+          <NavLink to="/123" exact className={classes.boton}>Geologo</NavLink>
           </Button>
           <Button color="inherit" >
-          <NavLink to="/123" exact className={classes.boton}>Desarrollador</NavLink>
+          <NavLink to="/" exact className={classes.boton}>Desarrollador</NavLink>
           </Button>
 
 

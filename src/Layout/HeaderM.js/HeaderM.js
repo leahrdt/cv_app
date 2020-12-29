@@ -192,7 +192,7 @@ export const HeaderM = () => {
               color="inherit"
               className={classes.imageTitle}
             >
-              <NavLink to="/123" className={classes.boton2}>{image[0].title}</NavLink>
+              <NavLink to="/" className={classes.boton2}>{image[0].title}</NavLink>
               <span className={classes.imageMarked} />
               
             </Typography>
@@ -227,7 +227,7 @@ export const HeaderM = () => {
               className={classes.imageTitle}
             >
               
-          <NavLink to="/" exact className={classes.boton2}>Geologist</NavLink>
+          <NavLink to="/123" exact className={classes.boton2}>Geologist</NavLink>
               <span className={classes.imageMarked} />
             </Typography>
             
