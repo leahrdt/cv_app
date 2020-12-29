@@ -35,8 +35,6 @@ export const getMiCarreraDev = () => [
     otros: 'Detalles:',
     detalle1: '•	Desarrollo de aplicaciones con la posibilidad de trabajar sin conexión',
     detalle2: '•  Desarrollo de aplicaciones con apariencia de una app nativa instalada en el celular',
-    detalle3: '',
-    detalle4: '',
     logo: 'https://i.ibb.co/GCL82Z7/11png.png',
   },
     {

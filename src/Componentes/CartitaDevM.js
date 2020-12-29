@@ -10,39 +10,38 @@ import Avatar from '@material-ui/core/Avatar';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '100%',
+    width: 'auto',
+    margin: 5,
   },  
   acord: {
-    backgroundColor: '#212121',
+    backgroundColor: '#404040',
     opacity: 0.95,
-    marginBottom: 2,
+    marginBottom: 3,
+    
     
   },
   heading: {
-    fontSize: theme.typography.pxToRem(15),
+    fontSize: theme.typography.pxToRem(17),
     flexBasis: '63.33%',
     flexShrink: 0,
     borderRadius: 1,
-    color: "white",
-    animationName: 'mover', /*mas abajo esta hecho el keyframes que dice que va a pasar antes y despues*/
-        animationDuration: '5s', /*cuanto duras*/
-        animationDelay: '1.5s', /*el delay hasta que arranque*/
-        animationIterationCount: 3,
-        animationTimingFunction: 'ease',  
+    color: "white", 
+        
   },
   secondaryHeading: {
-    fontSize: theme.typography.pxToRem(10),
+    fontSize: theme.typography.pxToRem(17),
     color: theme.palette.text.secondary,
     color: "black",
     
     animation: 'lineal 5s linear alternate infinite',
   },
 p: {
-  fontSize: theme.typography.pxToRem(12),
-  flexBasis: '95%',
+  fontSize: theme.typography.pxToRem(17),
+  flexBasis: '100%',
   flexShrink: 0,
   borderRadius: 1,
   color: "white",
+  
 },
 }));
 

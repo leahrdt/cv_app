@@ -12,35 +12,35 @@ import ListItemText from '@material-ui/core/ListItemText';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '100%',
+    width: 'auto',
+    margin: 5,
   },  
   acord: {
     opacity: 0.95,
-    marginBottom: 2,
   },
   heading0: {
     width: '7%',
   },
   heading: {
-    fontSize: theme.typography.pxToRem(12),
+    fontSize: theme.typography.pxToRem(13),
     marginRight: 15,
     flexBasis: '65.33%',
     flexShrink: 0,
     color: "black",
   },
   heading2: {
-    fontSize: theme.typography.pxToRem(8),
+    fontSize: theme.typography.pxToRem(10),
     flexBasis: '53.33%',
     flexShrink: 0,
     color: "GREY",
   },
   secondaryHeading: {
-    fontSize: theme.typography.pxToRem(3),
+    fontSize: theme.typography.pxToRem(10),
     color: theme.palette.text.secondary,
     color: "black",
   },
 p: {
-  fontSize: theme.typography.pxToRem(12),
+  fontSize: theme.typography.pxToRem(14),
   flexBasis: '95%',
   flexShrink: 0,
   borderRadius: 1,

@@ -20,7 +20,8 @@ import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 
 const useStyles = makeStyles((theme) => ({
 roottt: {
-  width: '100%',
+  width: 'auto',
+  margin: 5,
   padding: 0,
   opacity: 0.95,
 },
@@ -36,7 +37,7 @@ Titulo3: {
   height: 50,
   textAlign: 'center',
   color: 'white',
-  backgroundColor: '#424242',
+  backgroundColor: '#151515',
 },
 heading: {
   textSize: 21,
@@ -44,15 +45,25 @@ heading: {
   width: '100%',
   fontSize: theme.typography.pxToRem(15),
   fontWeight: theme.typography.fontWeightRegular,},
-root: {
-  
+roott: {
   width: '100%',
   background: '#4c5c68',
   padding: '0px',},
+  root: {
+    width: 'auto',
+    color: 'white',
+    background: 'transparent',
+  },
+
 text: {
   textAlign: '  ',
   background: '4c5c68',
-},}));
+},
+botonExpandex: {
+  color: 'red',
+  backgroundColor: 'red',
+}
+,}));
 
 
 export const MisDatosM = (props) => {
@@ -72,15 +83,20 @@ export const MisDatosM = (props) => {
 
       <Accordion className={classes.roottt}>
       <AccordionSummary
-        className={classes.Titulo3}
-          expandIcon={<ExpandMoreIcon />}
+          className={classes.Titulo3}
+          expandIcon={<ExpandMoreIcon 
+            classes={{
+              root: classes.root, // class name, e.g. `classes-nesting-root-x`
+              label: classes.label, // class name, e.g. `classes-nesting-label-x`
+            }}
+            />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
           
           <Typography className={classes.heading}><h3>{props.titulo}</h3></Typography>
         </AccordionSummary>
-        <List className={classes.root}>
+        <List className={classes.roott}>
         
 
         

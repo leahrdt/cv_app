@@ -8,9 +8,6 @@ export const getMisProyectos = () => [
     lugaresp: '',
     otros: 'Detalles:',
     detalle1: '•	Esta app!!!',
-    detalle2: '',
-    detalle3: '',
-    detalle4: '',
     logo: 'https://i.ibb.co/XtRZLVm/4.png',
   },
   {

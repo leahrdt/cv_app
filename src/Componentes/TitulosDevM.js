@@ -7,12 +7,12 @@ const useStyles = makeStyles((theme) => ({
   heading: {
     color: 'white',
     padding:0,
-    textAlign: 'LEFT',
-    marginLeft: '8%',
-      fontSize: theme.typography.pxToRem(18),
+    textAlign: 'center',
+    backgroundColor: '#313131',
+      fontSize: theme.typography.pxToRem(20),
       fontWeight: theme.typography.fontWeightRegular,
       fontFamily: 'JetBrains Mono',
-      padding: 12,
+      padding: 8,
     },
 }));
 
