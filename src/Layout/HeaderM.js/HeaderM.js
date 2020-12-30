@@ -9,6 +9,9 @@ import MenuIcon from '@material-ui/icons/Menu';
 import {NavLink } from 'react-router-dom';
 import ButtonBase from '@material-ui/core/ButtonBase';
 
+import Fab from '@material-ui/core/Fab';
+import NavigationIcon from '@material-ui/icons/Navigation';
+
 const image = [
   {
     url:'https://i.ibb.co/XCwc28y/dev.png',
@@ -134,6 +137,16 @@ const useStyles = makeStyles((theme) => ({
     left: 'calc(50% - 9px)',
     transition: theme.transitions.create('opacity'),
   },
+
+  extendedIcon: {
+    marginRight: theme.spacing(1),
+    
+    position: 'fixed',
+    marginLeft: '2%',
+    marginTop: '125%',
+    zIndex: 2,
+    
+  },
 }));
 
 
@@ -237,6 +250,7 @@ export const HeaderM = () => {
         
 
         </div>
+
         </div>
     )
 }

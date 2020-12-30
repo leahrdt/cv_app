@@ -10,6 +10,7 @@ import {NavLink } from 'react-router-dom'
 const inlineStyles = {
   activeLink: {
     color: 'white',
+    textDecoration: 'none',
     fontSize: '25px',
   }
 }
@@ -24,15 +25,37 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+  botones: {
+    marginLeft: 44,
+  },
   boton: {
+    backgroundColor:'white',
     color: 'white',
+    background: 'linear-gradient(45deg, #313131 30%, #414141 90%)',
+    border: 2,
+    borderRadius: 20,
+    borderColor: 'white',
+    width: 300,
+    height: 40,
     alignItems: 'center',
     justifyContent: 'center',
+    textDecoration: 'none',
+    
+    '& > *': {
+      margin: theme.spacing(1),
+    },
   },
   contacto: {
     color: 'white',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+
+  botonname: {
+    color: 'white',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop:'3%',
   },
 }));
 
@@ -49,19 +72,25 @@ export const Header = () => {
           LEANDRO FERNANDEZ REINHARDT
           </Typography>
 
+          <div className={classes.botones}>
           <Button color="inherit">
-          <NavLink to="/123" exact className={classes.boton}>Geologo</NavLink>
+          <NavLink to="/123" exact className={classes.boton}>
+          <Typography className={classes.botonname}>
+          Perfil: Geologo
+          </Typography>
+          </NavLink>
           </Button>
           <Button color="inherit" >
-          <NavLink to="/" exact className={classes.boton}>Desarrollador</NavLink>
+          <NavLink to="/" exact className={classes.boton}>
+
+          <Typography className={classes.botonname}>
+          Perfil: Desarrollador
+          </Typography>
+
+          </NavLink>
           </Button>
 
-
-
-          <Button color="inherit">
-          <NavLink to="/" exact className={classes.contacto}>Contacto  </NavLink>
-          </Button>
-
+          </div>
         </Toolbar>
       </AppBar>
     </div>

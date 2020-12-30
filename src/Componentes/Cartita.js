@@ -16,6 +16,7 @@ import CardContent from '@material-ui/core/CardContent';
 const useStyles = makeStyles((theme) => ({
 
   acordion: {
+    margin: 4,
     opacity: 0.9,
     padding: '0px',
     alignContent: 'center',

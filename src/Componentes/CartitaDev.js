@@ -16,39 +16,32 @@ import CardContent from '@material-ui/core/CardContent';
 const useStyles = makeStyles((theme) => ({
 
   acordion: {
-    backgroundColor: '#212121',
+    backgroundColor: '#252525',
     padding: '0px',
     alignContent: 'center',
+    margin: 4,
   },
 
   root: {
-    backgroundColor: '#212121',
+    backgroundColor: '#black',
     marginRight: '4%',
     marginLeft: '4%',
     opacity: 0.8,
     padding: '0px',
   },
 
-  Titulo3: {
-    borderColor: 'green',
-    color: 'white',
-    height:'40%'},
-    
-
   titulo4: {
-    
     color: 'white',
-    fontSize: 14,},
+    fontSize: 13,},
 
 
     rootCard: {
-      backgroundColor: 'black',
-        borderColor: "white",
-        backgroundColor: theme.palette.background.paper,
+      backgroundColor: '#212121',
+        borderColor: "#212121",
         marginTop: -20,
+        height: 'auto',
       },
       CardContent:{
-        
         backgroundColor: 'black',
         opacity: 0.95,
         borderRadius: -2,
@@ -63,26 +56,26 @@ const useStyles = makeStyles((theme) => ({
         padding: '0px',
       },
       acordTop: {
-        
+        backgroundColor: 'red',
         marginLeft: 0,
       },
-    inline: {
-      
+    titulo: {
       display: 'inline',
       color: 'white',
-      
+      fontSize: 18,
     },
-    inlineOne: {
-      
-      color: 'gray',
+    lugar: {
+      display: 'inline',
+      color: 'white',
+      fontSize: 15,
     },
+
     heading: {
         padding:0,
-        textSize: 11,
+        textSize: 21,
         textAlign: 'center',
         fontSize: theme.typography.pxToRem(15),
         fontWeight: theme.typography.fontWeightRegular,
-        
       },
 
       p: {
@@ -117,10 +110,8 @@ export const CartitaDev = (props) => {
                         <React.Fragment>
                             <Typography
                             variant="H1"
-                            marginBottom= "101px"
-                            className={classes.inline}
+                            className={classes.titulo}
                             color="Black"
-                            fontSize= "111"
                             >
                             {props.cv.titulo}
                             </Typography>
@@ -128,8 +119,8 @@ export const CartitaDev = (props) => {
                     secondary={
                     <React.Fragment>
                         <Typography
-                        variant="subtitle2"
-                        className={classes.inline}
+                        variant="subtitle1"
+                        className={classes.lugar}
                         color="textPrimary"
                         >
                         {props.cv.lugar}
