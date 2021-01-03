@@ -10,13 +10,16 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
-
 import CardMedia from '@material-ui/core/CardMedia';
 import CardActionArea from '@material-ui/core/CardActionArea';
-import FlightIcon from '@material-ui/icons/Image';
-import ImageIcon from '@material-ui/icons/Image';
-import WorkIcon from '@material-ui/icons/Work';
-import BeachAccessIcon from '@material-ui/icons/BeachAccess';
+import Apartment from '@material-ui/icons/Apartment';
+import EmojiFlags from '@material-ui/icons/EmojiFlags';
+import FlightTakeoff from '@material-ui/icons/FlightTakeoff';
+import DriveEta from '@material-ui/icons/DriveEta';
+import ChildFriendly from '@material-ui/icons/ChildFriendly';
+import Assignment from '@material-ui/icons/Assignment';
+import Language from '@material-ui/icons/Language';
+import House from '@material-ui/icons/House';
 
 const useStyles = makeStyles((theme) => ({
 roottt: {
@@ -109,7 +112,7 @@ export const MisDatosM = (props) => {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <ImageIcon />
+            <EmojiFlags />
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text} primary="Nacionalidad" secondary="Argentina" />
@@ -118,7 +121,7 @@ export const MisDatosM = (props) => {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <WorkIcon />
+            <Apartment />
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text} primary="Lugar de Residencia" secondary="CABA" />
@@ -127,7 +130,7 @@ export const MisDatosM = (props) => {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <BeachAccessIcon />
+            <House />
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text}  primary="Lugar de Nacimiento" secondary="Trenque Lauquen"  />
@@ -136,7 +139,7 @@ export const MisDatosM = (props) => {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <FlightIcon />
+            <FlightTakeoff />
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text}  primary="Posiilidad de Reencidencia" secondary="Si"  />
@@ -145,7 +148,7 @@ export const MisDatosM = (props) => {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <BeachAccessIcon />
+            <Assignment />
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text}  primary="Fecha de Nacimiento" secondary="20 de Septiembre, 1990"  />
@@ -154,7 +157,7 @@ export const MisDatosM = (props) => {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <BeachAccessIcon />
+            <DriveEta />
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text}  primary="Licencia de Conducir" secondary="Si - A1,4 -B2"  />
@@ -163,7 +166,7 @@ export const MisDatosM = (props) => {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <BeachAccessIcon />
+            <ChildFriendly />
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text}  primary="Hijos" secondary="No"  />
@@ -172,7 +175,7 @@ export const MisDatosM = (props) => {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <BeachAccessIcon />
+            <Language />
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text}  primary="Idiomas" secondary="Ingles - Intermedio (experiencia en lectura y comunicacion)"  />

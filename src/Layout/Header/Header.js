@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
   botones: {
     marginLeft: 44,
   },
+
   boton: {
     backgroundColor:'white',
     color: 'white',
@@ -41,9 +42,11 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     textDecoration: 'none',
     
+    
     '& > *': {
       margin: theme.spacing(1),
     },
+
   },
   contacto: {
     color: 'white',

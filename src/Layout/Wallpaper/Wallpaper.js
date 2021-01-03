@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
     paperContainer: {
         height: '1500px',
         opacity: 0.8,
-        backgroundImage: `url(${Image})`,
+        backgroundImage: `url(${Image  })`,
         backgroundColor: 'black',
         backgroundSize: 'cover',
         backgroundPosition: 'center',

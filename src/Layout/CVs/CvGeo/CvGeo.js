@@ -4,16 +4,16 @@ import Grid from '@material-ui/core/Grid';
 import {MisDatos} from '../../../Componentes/MisDatos';
 import {Cartita} from '../../../Componentes/Cartita';
 import {Titulos} from '../../../Componentes/Titulos';
-
 import {TitulosM} from '../../../Componentes/TitulosM';
 import {Space} from '../../../Componentes/Space';
 import {getMiCarrera} from '../../../api/MiCarrera'
 import {getMiExperiencia} from '../../../api/MiExperiencia'
-
+import {CSSTransition} from 'react-transition-group'
 import {MisDatosM} from '../../../Componentes/MisDatosM';
 import {HeaderM} from '../../HeaderM.js'
 import {CartitaGeoM} from '../../../Componentes/CartitaGeoM';
 import {Header} from '../../Header'
+import './CvGeo.css';
 
 export class CvGeo extends React.PureComponent {
     
@@ -21,6 +21,7 @@ export class CvGeo extends React.PureComponent {
     super(props); 
         
     this.state = { 
+        aparecer: true,
         midata: [],
         miexp: [],
         miexpdev: [],
@@ -49,7 +50,7 @@ componentDidMount() {
 
     render() { 
 
-    const {midata, cartitageom, picGeo, miexp, MiDat, nac, lic, res, lnac, fnac, MiExp, MiEst} = this.state
+    const {midata, aparecer, picGeo, miexp, MiDat, nac, lic, res, lnac, fnac, MiExp, MiEst} = this.state
 
     return (
         <Fragment>
@@ -57,11 +58,13 @@ componentDidMount() {
         <Hidden smUp>
         <HeaderM />
 
+
         <MisDatosM 
         titulo={MiDat}
         pic = {picGeo}
             
         />
+        
         <TitulosM
         titulo={MiExp}/>
         { miexp.map(miexp => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
@@ -71,7 +74,7 @@ componentDidMount() {
             key={miexp.id} //siempre react te pide una key=id para su manejo interno.
         />
         )) }
-
+        
             
         <TitulosM
         titulo={MiEst}/>
@@ -82,13 +85,20 @@ componentDidMount() {
             key={midata.id} //siempre react te pide una key=id para su manejo interno.
         />
         )) }
+        
         </Hidden>
-
-
 
 
             <Hidden xsDown>
             <Header />
+
+            <CSSTransition
+            in={aparecer}
+            appear={true}
+            timeout={2200}
+            classNames="fade"
+            >
+
             <Grid container spacing={1} >
             <Grid item xs={4}  >
             <MisDatos 
@@ -127,6 +137,7 @@ componentDidMount() {
             </Grid>
 
             </Grid>
+            </CSSTransition>
             </Hidden>
     </Fragment>
 )}}

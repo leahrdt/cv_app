@@ -1,11 +1,8 @@
 
-import {Header} from '../Header'
 import {CvDev} from '../CVs/CvDev'
 import {WallpaperDev} from '../Wallpaper/WallpaperDev'
 import { Fragment } from 'react'
-
 import Card from '@material-ui/core/Card';
-
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
@@ -29,12 +26,12 @@ export const ContDev = () => {
 
     <WallpaperDev />
 
+
     <Card className={classes.cv}>
 
     <CvDev/> 
 
     </Card>
-
   </Fragment>
 
 )

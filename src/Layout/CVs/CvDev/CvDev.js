@@ -11,20 +11,17 @@ import {getMiCarreraDev} from '../../../api/MiCarreraDev'
 import {getMisProyectos} from '../../../api/MisProyectos'
 import {Header} from '../../Header'
 import {HeaderM} from '../../HeaderM.js'
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import Accordion from '@material-ui/core/Accordion';
-import AccordionSummary from '@material-ui/core/AccordionSummary';
 import {Space} from '../../../Componentes/Space';
-import { AcordM } from '../../../Componentes/AcordM';
-import { withStyles } from '@material-ui/core/styles';
+import './CvDev.css';
 
-
+import {CSSTransition} from 'react-transition-group'
 export class CvDev extends React.PureComponent {
     
     constructor(props) { 
     super(props); 
         
     this.state = { 
+        aparecer: true,
         midata: [],
         miexp: [],
         miexpdev: [],
@@ -58,7 +55,7 @@ componentDidMount() {
 
     render() { 
 
-        const {midata, miproyec, className, picGeo, MiProyect, clas, miexpdev, MiDat, nac, lic, res, lnac, fnac, MiEst} = this.state
+        const { miproyec, aparecer, picGeo, MiProyect, clas, miexpdev, MiDat, nac, lic, res, lnac, fnac, MiEst} = this.state
 
     return (
     <Fragment >
@@ -98,6 +95,14 @@ componentDidMount() {
 
 
         <Header />   
+
+        <CSSTransition
+            in={aparecer}
+            appear={true}
+            timeout={2200}
+            classNames="fade"
+            >
+
         <Grid container spacing={0} >
         
         <Grid item xs={4}  >
@@ -136,6 +141,7 @@ componentDidMount() {
             
             </Grid>
             </Grid>
+            </CSSTransition>
             </Hidden>
     </Fragment>
 

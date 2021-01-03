@@ -9,17 +9,21 @@ import MenuIcon from '@material-ui/icons/Menu';
 import {NavLink } from 'react-router-dom';
 import ButtonBase from '@material-ui/core/ButtonBase';
 
+import Image2 from '../HeaderM.js/dev.png'
+
+import Image1 from '../HeaderM.js/geo.png'
+
 import Fab from '@material-ui/core/Fab';
 import NavigationIcon from '@material-ui/icons/Navigation';
 
 const image = [
   {
-    url:'https://i.ibb.co/XCwc28y/dev.png',
+    url: Image2,
     title: '</Desarrollador>',
     width: '45%',
   },
   {
-    url:'https://i.ibb.co/VC1mqdy/geo.png',
+    url:Image1,
     title: 'Geologo',
     width: '45%',
   },
