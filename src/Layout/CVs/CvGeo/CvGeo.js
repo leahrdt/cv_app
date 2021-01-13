@@ -25,7 +25,7 @@ export class CvGeo extends React.PureComponent {
         midata: [],
         miexp: [],
         miexpdev: [],
-        picGeo: ["https://i.ibb.co/7Rz5dGB/unnamed.jpg"],
+        picGeo: ["https://i.ibb.co/NYkmPBf/avatar-2.png"],
         dni: [35097033],
         nac: ["Argentino"],
         lic: ["Si - A1,4 -B2"],
