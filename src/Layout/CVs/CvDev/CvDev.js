@@ -36,7 +36,7 @@ export class CvDev extends React.PureComponent {
         MiEst: ["FORMACION"],
         MiProyect: ["PROYECTOS"],
         MiDat: ["INFORMACION PERSONAL"],
-        picGeo: ["https://guillaumebreux.com/avatar.png"],
+        picGeo: ["https://i.ibb.co/NYkmPBf/avatar-2.png"],
         clas: ["{classes.root}"],
 }};
 
