@@ -62,11 +62,11 @@ const useStyles = makeStyles((theme) => ({
     titulo: {
       display: 'inline',
       color: 'white',
-      fontSize: 18,
+      fontSize: 19,
     },
     lugar: {
       display: 'inline',
-      color: 'white',
+      color: '#919191',
       fontSize: 15,
     },
 
@@ -147,6 +147,8 @@ export const CartitaDev = (props) => {
         {props.cv.detalle3}
         <br />
         {props.cv.detalle4}
+        <br />
+        {props.cv.detalle5}
         </Typography>
       </CardContent>
     </Card>
