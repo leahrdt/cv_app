@@ -37,8 +37,8 @@ export const getMiCarreraDev = () => [
     detalle1: 'Conocimientos principales:',
     detalle2: '•	Eventos - Formularios y Validaciones con expresiones regulares',
     detalle3: '•	AJAX - Promesas - Fetch API - AsyncAwait',
-    detalle3: '•	Prototipos - Programación orientada a objetos',
-    detalle4: '•	Patrones de diseño',
+    detalle4: '•	Prototipos - Programación orientada a objetos',
+    detalle5: '•	Patrones de diseño',
     logo: 'https://i.ibb.co/GnJ4q7x/descarga.png',
   },
   {
