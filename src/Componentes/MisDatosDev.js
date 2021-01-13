@@ -24,7 +24,7 @@ root: {
     marginTop: '43%',
     Width: '100%',
     opacity: 0.8,
-    backgroundColor: '#151515',
+    backgroundColor: '#313131',
     },
 
 space: {
