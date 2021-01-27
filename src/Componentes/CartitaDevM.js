@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
   acord: {
     opacity: 0.95,
     
- backgroundColor: '#404040',
+ backgroundColor: '#484848',
   },
   heading0: {
     width: '7%',

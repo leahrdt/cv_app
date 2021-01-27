@@ -40,7 +40,7 @@ Titulo3: {
   height: 50,
   textAlign: 'center',
   color: 'white',
-  backgroundColor: '#151515',
+  backgroundColor: '#303030',
 },
 heading: {
   textSize: 21,
