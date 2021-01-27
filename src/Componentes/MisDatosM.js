@@ -61,7 +61,9 @@ roott: {
 text: {
   textAlign: '  ',
   background: '4c5c68',
+  
 },
+
 botonExpandex: {
   color: 'red',
   backgroundColor: 'red',
