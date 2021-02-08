@@ -81,8 +81,8 @@ export const getMiCarreraDev = () => [
       detalle1: 'Conocimientos Principales ',
       detalle2: '•	Diferentes elementos HTML y sus respectivos atributos ',
       detalle3: '•	Uso de diferentes fuentes (google fonts)',
-      detalle3: '	',
-      detalle4: '	 ',
+      detalle4: '	',
+      detalle5: '	 ',
       logo: 'https://i.ibb.co/0qf83gV/images.jpg',
     },
     {
@@ -97,7 +97,7 @@ export const getMiCarreraDev = () => [
       detalle2: '• Creación de bases de datos con MongoDB y API RESTFul',
       detalle3: '• Diseño y desarrollo Web',
       detalle4: '• Uso de framework Express.Js y framework Handlebars',
-      detalle4: '',
+      detalle5: '',
       logo: 'https://i.ibb.co/ncgMxFQ/5.png',
     },
     ]

@@ -15,6 +15,8 @@ import {Space} from '../../../Componentes/Space';
 import './CvDev.css';
 
 import {CSSTransition} from 'react-transition-group'
+
+
 export class CvDev extends React.PureComponent {
     
     constructor(props) { 
