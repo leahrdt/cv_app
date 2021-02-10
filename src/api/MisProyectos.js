@@ -22,7 +22,7 @@ export const getMisProyectos = () => [
     detalle1: '•	Aplicación responsive - Diseñada con Bootstrap 5',
     detalle2: '•  Carrete de fotos: llamados y edición a APIRest ',
     detalle3: '•  Formulario Reactive con Validaciones	',
-    detalle4: '•  <a href="https://leahrdt.github.io/Angular/">	',
+    detalle6: 'https://leahrdt.github.io/Angular/',
     logo: 'https://i.ibb.co/HgZBCbN/descarga.png',
   },
   {

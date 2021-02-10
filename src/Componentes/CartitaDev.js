@@ -11,6 +11,7 @@ import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Card from '@material-ui/core/Card';
+import Link from '@material-ui/core/Link';
 import CardContent from '@material-ui/core/CardContent';
 
 const useStyles = makeStyles((theme) => ({
@@ -87,6 +88,8 @@ const useStyles = makeStyles((theme) => ({
 
 export const CartitaDev = (props) => {
     const classes = useStyles();
+    
+  const preventDefault = (event) => event.preventDefault();
 
     return (
     <Fragment>
@@ -148,7 +151,12 @@ export const CartitaDev = (props) => {
         <br />
         {props.cv.detalle4}
         <br />
+
         {props.cv.detalle5}
+        <br />
+        <Link href={props.cv.detalle6}  color="inherit">
+    {props.cv.detalle6}
+        </Link>
         </Typography>
       </CardContent>
     </Card>
