@@ -14,7 +14,7 @@ export const getMisProyectos = () => [
   },
   {
     id: '2',
-    titulo: 'APP CV DIGITAL',
+    titulo: 'Angular 11 Test',
     lugar: 'Desarrollada con: Angular 11',
     tiempo: '',
     lugaresp: '',
