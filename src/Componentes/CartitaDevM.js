@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
+import Link from '@material-ui/core/Link';
 
 // const useStyles = makeStyles((theme) => ({
 //   root: {
@@ -153,6 +154,10 @@ export const CartitaDevM = (props) => {
         {props.cv.detalle4}
         <br />
         {props.cv.detalle5}
+        <br />
+        <Link href={props.cv.detalle6}  color="inherit">
+    {props.cv.detalle6}
+        </Link>
 </Typography>
         </AccordionDetails>
       </Accordion>
