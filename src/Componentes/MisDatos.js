@@ -5,6 +5,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
+import IconButton from '@material-ui/core/IconButton';
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 
 const useStyles = makeStyles({
 
@@ -103,7 +105,7 @@ export const MisDatos = (props) => {
         </Typography>
 
         <Typography className={classes.titulo2} >
-        Posiilidad de Reecidencia
+        Disponibilidad para cambiar de residencia
         </Typography>
         <Typography className={classes.p} >
         Si
@@ -144,6 +146,9 @@ export const MisDatos = (props) => {
         </Typography>
 
         </CardContent>
+        <IconButton color="primary" aria-label="add to shopping cart">
+        <AddShoppingCartIcon />
+        </IconButton>
     </Card>
 
             {/* <h1 className="datosPersonales">DATOS PERSONALES</h1>

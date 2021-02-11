@@ -9,6 +9,9 @@ import MenuIcon from '@material-ui/icons/Menu';
 import {NavLink } from 'react-router-dom';
 import ButtonBase from '@material-ui/core/ButtonBase';
 
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import Link from '@material-ui/core/Link';
+
 import Image2 from '../HeaderM.js/dev.png'
 
 import Image1 from '../HeaderM.js/geo.png'
@@ -151,6 +154,27 @@ const useStyles = makeStyles((theme) => ({
     zIndex: 2,
     
   },
+
+  botonContacto:{
+    backgroundColor:'white',
+    color: 'white',
+    background: 'linear-gradient(45deg, #1b5954 5%, #43bf53 99%)',
+    border: 2,
+    borderRadius: 20,
+    borderColor: 'white',
+    width: 120,
+    height: 40,
+    alignItems: 'center',
+    justifyContent: 'center',
+    textDecoration: 'none',
+    position:'fixed',
+	  width:'auto',
+	  height:'auto',
+	  bottom:'30px',
+	  right:'25px',
+	  marginTop:'16px',
+    zIndex: '2',
+  }
 }));
 
 
@@ -244,7 +268,7 @@ export const HeaderM = () => {
               className={classes.imageTitle}
             >
               
-          <NavLink to="/123" exact className={classes.boton2}>Geologist</NavLink>
+          <NavLink to="/123" exact className={classes.boton2}>Geologo</NavLink>
               <span className={classes.imageMarked} />
             </Typography>
             
@@ -254,6 +278,16 @@ export const HeaderM = () => {
         
 
         </div>
+
+        <Button
+        variant="contained"
+        className={classes.botonContacto}
+        
+        endIcon={<WhatsAppIcon />}
+      ><Link color='inherit' href="https://api.whatsapp.com/send?phone=5492392536414&text=Hola%21%20Leandro%20." >
+          Contacto
+          </Link> 
+      </Button>
 
         </div>
     )

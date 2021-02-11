@@ -105,7 +105,7 @@ export const MisDatosDev = (props) => {
         </Typography>
 
         <Typography className={classes.titulo2} >
-        Posiilidad de Reecidencia
+        Disponibilidad para cambiar de residencia
         </Typography>
         <Typography className={classes.p} >
         Si

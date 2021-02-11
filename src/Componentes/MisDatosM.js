@@ -144,7 +144,8 @@ export const MisDatosM = (props) => {
             <FlightTakeoff />
           </Avatar>
         </ListItemAvatar>
-        <ListItemText className={classes.text}  primary="Posiilidad de Reencidencia" secondary="Si"  />
+        <ListItemText className={classes.text}  primary="
+        Disponibilidad para cambiar de residencia" secondary="Si"  />
       </ListItem>
 
       <ListItem>
