@@ -13,7 +13,7 @@ export class EstM extends React.PureComponent {
     super(props);
     this.state = { 
         midata: [],
-        MiEst: ["FORMACION ACADEMICA"],
+        MiEst: ["FORMACIÓN ACADEMICA"],
 }};
 
 componentDidMount() {

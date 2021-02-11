@@ -35,9 +35,9 @@ export class CvDev extends React.PureComponent {
         fnac: ["20 de septiembre de 1990"],
         res: ["CABA"],
         MiExp: ["EXPERIENCIA LABORAL"],
-        MiEst: ["FORMACION"],
+        MiEst: ["FORMACIÓN"],
         MiProyect: ["PROYECTOS"],
-        MiDat: ["INFORMACION PERSONAL"],
+        MiDat: ["INFORMACIÓN PERSONAL"],
         picGeo: ["https://i.ibb.co/7G8mHmK/avatar-4.png"],
         clas: ["{classes.root}"],
 }};

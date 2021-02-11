@@ -2,7 +2,7 @@ export const getMiCarreraDev = () => [
   {
     id: '1',
     titulo: 'ANGULAR',
-    lugar: 'Educacion IT',
+    lugar: 'EDUCACIÓN IT',
     tiempo: '',
     lugaresp: '',
     otros: 'Materias Cursadas: Angular 8',
@@ -16,7 +16,7 @@ export const getMiCarreraDev = () => [
   {
     id: '2',
     titulo: 'REACT JS',
-    lugar: 'Educacion IT',
+    lugar: 'EDUCACIÓN IT',
     tiempo: '',
     lugaresp: '',
     otros: 'Materias Cursadas: ReactJS - ReactJS Avanzado',
@@ -30,7 +30,7 @@ export const getMiCarreraDev = () => [
   {
     id: '3',
     titulo: 'JAVASCRIPT',
-    lugar: 'Educación IT',
+    lugar: 'EDUCACIÓN IT',
     tiempo: ' ',
     lugaresp: '',
     otros: 'Materias Cursadas: Javascript - Javascript Desarrollador Avanzado',
@@ -44,7 +44,7 @@ export const getMiCarreraDev = () => [
   {
     id: '4',
     titulo: 'JAVASCRIPT AWP',
-    lugar: 'Educación IT',
+    lugar: 'EDUCACIÓN IT',
     tiempo: '',
     lugaresp: '',
     otros: 'Materias Cursadas: JavaScript AWP',
@@ -57,7 +57,7 @@ export const getMiCarreraDev = () => [
     {
       id: '5',
       titulo: 'MAQUETADO WEB - HTML5 y CSS3',
-      lugar: 'Educación IT',
+      lugar: 'EDUCACIÓN IT',
       tiempo: '',
       lugaresp: '',
       otros: 'Materias Cursadas: Maquetacion Web - Maquetacion Web Avanzada',
@@ -73,7 +73,7 @@ export const getMiCarreraDev = () => [
     {
       id: '6',
       titulo: 'HTML 5',
-      lugar: 'Educación IT',
+      lugar: 'EDUCACIÓN IT',
       tiempo: '',
       lugaresp: '',
       otros: 'Materias Cursadas: HTML5 Funcamentos Web',
@@ -88,7 +88,7 @@ export const getMiCarreraDev = () => [
     {
       id: '7',
       titulo: 'MONGO DB',
-      lugar: 'Educación IT',
+      lugar: 'EDUCACIÓN IT',
       tiempo: '',
       lugaresp: '',
       otros: 'Materias Cursadas: Mongo DB Fundamentos',

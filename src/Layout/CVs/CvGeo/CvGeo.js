@@ -33,8 +33,8 @@ export class CvGeo extends React.PureComponent {
         fnac: ["20 de septiembre de 1990"],
         res: ["CABA"],
         MiExp: ["EXPERIENCIA LABORAL"],
-        MiEst: ["FORMACION ACADEMICA"],
-        MiDat: ["INFORMACION PERSONAL"],
+        MiEst: ["FORMACIÓN ACADEMICA"],
+        MiDat: ["INFORMACIÓN PERSONAL"],
 }};
 
 componentDidMount() {

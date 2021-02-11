@@ -26,7 +26,7 @@ roottt: {
   width: 'auto',
   margin: 5,
   padding: 0,
-  opacity: 0.95,
+
 },
 media: {
   width: '45%',
@@ -35,32 +35,50 @@ media: {
   marginTop: '5%',
   marginBottom: '5%',
   borderRadius: 100,
+  
 },
 Titulo3: {
   height: 50,
   textAlign: 'center',
   color: 'white',
   backgroundColor: '#303030',
+  
 },
 heading: {
-  textSize: 21,
+  textSize: 31,
   padding:0,
   width: '100%',
   fontSize: theme.typography.pxToRem(15),
+  
   fontWeight: theme.typography.fontWeightRegular,},
+
 roott: {
+  
   width: '100%',
-  background: '#4c5c68',
-  padding: '0px',},
+  background: 'white ',
+  padding: '0px',
+
+  textSize: 31,
+},
+
   root: {
-    width: 'auto',
+    width: 'white',
     color: 'white',
-    background: 'transparent',
+    background: '',
+  },
+  rooting: {
+    width: 'white',
+    color: 'black',
+    background: '',
   },
 
 text: {
+  
+  fontSize: theme.typography.pxToRem(15),
   textAlign: '  ',
   background: '4c5c68',
+  
+  textSize: 31,
   
 },
 
@@ -68,6 +86,7 @@ botonExpandex: {
   color: 'red',
   backgroundColor: 'red',
 }
+
 ,}));
 
 
@@ -110,75 +129,90 @@ export const MisDatosM = (props) => {
 
 
 
-<List className={classes.root}>
+<List className={classes.rooting}>
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <EmojiFlags />
+            <EmojiFlags color="primary"/>
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text} primary="Nacionalidad" secondary="Argentina" />
+
       </ListItem>
+
+      <Divider variant="inset" component="li" />
 
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <Apartment />
+            <Apartment color="primary"/>
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text} primary="Lugar de Residencia" secondary="CABA" />
       </ListItem>
 
+      <Divider variant="inset" component="li" />
+
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <House />
+            <House color="primary"/>
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text}  primary="Lugar de Nacimiento" secondary="Trenque Lauquen"  />
       </ListItem>
 
+      <Divider variant="inset" component="li" />
+
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <FlightTakeoff />
+            <FlightTakeoff color="primary"/>
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text}  primary="
         Disponibilidad para cambiar de residencia" secondary="Si"  />
       </ListItem>
 
+      <Divider variant="inset" component="li" />
+
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <Assignment />
+            <Assignment color="primary"/>
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text}  primary="Fecha de Nacimiento" secondary="20 de Septiembre, 1990"  />
       </ListItem>
 
+      <Divider variant="inset" component="li" />
+
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <DriveEta />
+            <DriveEta color="primary"/>
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text}  primary="Licencia de Conducir" secondary="Si - A1,4 -B2"  />
       </ListItem>
 
+      <Divider variant="inset" component="li" />
+
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <ChildFriendly />
+            <ChildFriendly color="primary"/>
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text}  primary="Hijos" secondary="No"  />
       </ListItem>
 
+      <Divider variant="inset" component="li" />
+
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <Language />
+            <Language color="primary" />
           </Avatar>
         </ListItemAvatar>
         <ListItemText className={classes.text}  primary="Idiomas" secondary="Ingles - Intermedio (experiencia en lectura y comunicacion)"  />
