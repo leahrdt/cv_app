@@ -6,7 +6,7 @@ export const getMiExperiencia = () => [
     tiempo: '   2019 - Act',
     lugaresp: '',
     otros: 'Funciones Desarrolladas',
-    detalle1: '•	Evaluaciones petrofísicas determinística y probabilística (multimineral) en yacimientos convencionales y no-convencionales (software: Geolog - Techlog).',
+    detalle1: '•	Evaluaciones petrofísicas determinística y probabilística (multimineral) en yacimientos convencionales y no-convencionales (software: Geolog).',
     detalle2: '•	Análisis de datos de laboratorio.',
     detalle3: '•	Control de calidad de registros de pozos, edición, predicción y puesta en profundidad.  ',
     detalle4: '•	Generación de Electrofacies.',

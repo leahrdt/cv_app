@@ -170,8 +170,7 @@ export const MisDatosM = (props) => {
             <FlightTakeoff color="primary"/>
           </Avatar>
         </ListItemAvatar>
-        <ListItemText className={classes.text}  primary="
-        Disponibilidad para cambiar de residencia" secondary="Si"  />
+        <ListItemText className={classes.text}  primary="Disponibilidad para cambiar de residencia" secondary="Si"  />
       </ListItem>
 
       <Divider variant="inset" component="li" />
@@ -215,7 +214,7 @@ export const MisDatosM = (props) => {
             <Language color="primary" />
           </Avatar>
         </ListItemAvatar>
-        <ListItemText className={classes.text}  primary="Idiomas" secondary="Ingles - Intermedio (experiencia en lectura y comunicacion)"  />
+        <ListItemText className={classes.text}  primary="Idiomas" secondary="Ingles - Intermedio (experiencia en lectura y comunicación)"  />
       </ListItem>
     </List>
 
