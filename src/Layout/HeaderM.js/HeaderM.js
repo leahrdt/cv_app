@@ -159,11 +159,11 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor:'white',
     color: 'white',
     background: 'linear-gradient(45deg, #1b5954 5%, #43bf53 99%)',
-    border: 2,
-    borderRadius: 20,
-    borderColor: 'white',
-    width: 120,
-    height: 40,
+    border: 10,
+    borderRadius: 99,
+    borderColor: 'black',
+    maxWidth: 'auto',
+    height: 22,
     alignItems: 'center',
     justifyContent: 'center',
     textDecoration: 'none',
@@ -174,6 +174,11 @@ const useStyles = makeStyles((theme) => ({
 	  right:'25px',
 	  marginTop:'16px',
     zIndex: '2',
+  },
+
+  link:{
+    height: 22,
+
   }
 }));
 
@@ -279,16 +284,15 @@ export const HeaderM = () => {
 
         </div>
 
+        <Link color='inherit' className={classes.link} href="https://api.whatsapp.com/send?phone=5492392536414&text=Hola%21%20Leandro%20." >
         <Button
         variant="contained"
         className={classes.botonContacto}
         
-        endIcon={<WhatsAppIcon />}
-      ><Link color='inherit' href="https://api.whatsapp.com/send?phone=5492392536414&text=Hola%21%20Leandro%20." >
-          Contacto
-          </Link> 
+      >
+        <WhatsAppIcon fontSize="large" />
       </Button>
-
+      </Link> 
         </div>
     )
 }
