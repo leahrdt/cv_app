@@ -1,6 +1,19 @@
 export const getMisProyectos = () => [
   {
     id: '1',
+    titulo: 'WEB PERSONAL',
+    lugar: 'DESARROLLA CON HTML5,CSS3 Y JAVASCRIPT',
+    tiempo: ' ',
+    lugaresp: '',
+    otros: 'Secciones de la web:',
+    detalle1: '•  Web tipo Single Page Aplication - Responsive',
+    detalle2: '•	Pagina principal: CV en ingles con información personal. Posee un diseño con un enfoque diferente al de esta App_CV ',
+    detalle3: '•	Formulario validado a traves de Clases CSS y Exp-Regulares',
+    detalle4: '•	Juego: Snake ',
+    logo: 'https://i.ibb.co/JHrGZK1/Screenshot-5.png',
+  },
+  {
+    id: '2',
     titulo: 'ANGULAR 11 TEST',
     lugar: 'DESARROLLADA CON ANGULAR 11',
     tiempo: '',
@@ -15,31 +28,19 @@ export const getMisProyectos = () => [
     logo: 'https://i.ibb.co/HgZBCbN/descarga.png',
   },
   {
-    id: '2',
+    id: '3',
     titulo: 'APP CV DIGITAL',
     lugar: 'DESARROLLADA CON REACT JS',
     tiempo: '',
     lugaresp: '',
     otros: 'Características:',
     
-    detalle1: '•	Esta APP !',
+    detalle1: '•	Esta Aplicacion',
     detalle2: '•	Función: aplicación web para presentar mis conocimientos y proyectos web',
     detalle3: '•  Diseño Responsive ',
     detalle4: '•  Framework de IU: Material-UI	',
     logo: 'https://i.ibb.co/g7xWVd1/vector-cv-icon.jpg',
   },
 
-  {
-    id: '3',
-    titulo: 'Proximamente mas',
-    lugar: '',
-    tiempo: ' ',
-    lugaresp: '',
-    otros: 'Detalles:',
-    detalle1: 'Proximamente mas...	',
-    detalle2: '',
-    detalle3: '',
-    detalle4: '',
-    logo: 'https://i.ibb.co/GnJ4q7x/descarga.png',
-  },
+
     ]

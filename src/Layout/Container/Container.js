@@ -5,13 +5,16 @@ import {BrowserRouter, Route, Switch } from 'react-router-dom'
 import {ThemeProvider} from '@material-ui/core/styles'
 import theme from '../../Tema/TemaConfig'
 
+import store from "../../api/reduxState/store"
 
+import {Provider} from "react-redux"
 
-export const Container = () => {
-
-
+const Container = () => {
   return (
-  <BrowserRouter>
+    <div>
+
+<Provider store={store}>
+        <BrowserRouter>
   <ThemeProvider theme={theme}>
 
 
@@ -29,6 +32,9 @@ export const Container = () => {
 
   </ThemeProvider>
   </BrowserRouter>
-
-)
+  </Provider>
+    </div>
+  )
 }
+
+export default Container

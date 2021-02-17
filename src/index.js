@@ -1,6 +1,6 @@
 import React from 'react'; //se importa la libreria react.
 import ReactDOM from 'react-dom'; // se import la libreria react dom
-import {Container} from './Layout/Container';
+import Container from './Layout/Container/Container';
 import './index.css';
 
 
