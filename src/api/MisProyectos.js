@@ -2,7 +2,7 @@ export const getMisProyectos = () => [
   {
     id: '1',
     titulo: 'WEB PERSONAL',
-    lugar: 'DESARROLLA CON HTML5,CSS3 Y JAVASCRIPT',
+    lugar: 'DESARROLLA CON JAVASCRIPT',
     tiempo: ' ',
     lugaresp: '',
     otros: 'Secciones de la web:',
@@ -10,6 +10,8 @@ export const getMisProyectos = () => [
     detalle2: '•	Pagina principal: CV en ingles con información personal. Posee un diseño con un enfoque diferente al de esta App_CV ',
     detalle3: '•	Formulario validado a traves de Clases CSS y Exp-Regulares',
     detalle4: '•	Juego: Snake ',
+    detalle5: 'Link: https://leahrdt.github.io/',
+    detalle6: 'https://leahrdt.github.io/Angular/',
     logo: 'https://i.ibb.co/JHrGZK1/Screenshot-5.png',
   },
   {
