@@ -41,11 +41,10 @@ componentDidMount() {
             titulo={MiEst}/>
         </AccordionSummary>
 
-      { midata.map(midata => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
+      { midata.map(midata => (
             <Cartita
-              //Props..... el 1er nombre lo creo.
                 cv={midata}
-                key={midata.id} //siempre react te pide una key=id para su manejo interno.
+                key={midata.id} 
             />
             ))}
 

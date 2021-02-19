@@ -131,12 +131,7 @@ export const MisDatosDev = (props) => {
         </CardContent>
     </Card>
 
-            {/* <h1 className="datosPersonales">DATOS PERSONALES</h1>
-            Nacionalidad {props.nac}
-            Licencia de Conducir {props.lic}
-            Lugar de Residencia {props.res}
-            Lugar de Nacimiento {props.lnac}
-            Fecha de Nacimiento {props.fnac} */}
+
         </div>
     )
 }

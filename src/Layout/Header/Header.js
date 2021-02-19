@@ -128,25 +128,12 @@ export const Header = () => {
           </Button>
 
 
-
-
-      {/* <Link className={classes.flotante} href="https://api.whatsapp.com/send?phone=5492392536414&text=Hola%21%20Leandro%20m%C3%A1s%20." >
-      <Button
-        variant="contained"
-        color="primary"
-        className={classes.button}
-        endIcon={<Icon>send</Icon>}
-      >
-
-      </Button>
-          </Link> */}
-
           <Button
         variant="contained"
         className={classes.botonContacto}
         
         endIcon={<WhatsAppIcon />}
-      ><Link color='inherit' href="https://api.whatsapp.com/send?phone=5492392536414&text=Hola%21%20Leandro%20." >
+      ><Link color='inherit' href="https://api.whatsapp.com/send?phone=5492392536414&text=Hola%20Leandro%20." >
           Contacto
           </Link> 
       </Button>

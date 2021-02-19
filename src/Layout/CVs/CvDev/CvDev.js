@@ -72,22 +72,20 @@ componentDidMount() {
             />
             <TitulosDevM
             titulo={MiProyect}/>
-            { miproyec.map(miproyec => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
+            { miproyec.map(miproyec => ( 
             <CartitaDevM
-              //Props..... el 1er nombre lo creo.
                 cv={miproyec}
-                key={miproyec.id} //siempre react te pide una key=id para su manejo interno.
+                key={miproyec.id} 
             />
             )) }
 
             
             <TitulosDevM
             titulo={MiEst}/>
-            { miexpdev.map(miexpdev => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
+            { miexpdev.map(miexpdev => ( 
             <CartitaDevM
-              //Props..... el 1er nombre lo creo.
                 cv={miexpdev}
-                key={miexpdev.id} //siempre react te pide una key=id para su manejo interno.
+                key={miexpdev.id} 
             />
             )) }
             </Hidden>
@@ -123,20 +121,18 @@ componentDidMount() {
             <TitulosDev
             style= {{backgroundColor: 'red' }}
             titulo={MiProyect}/>
-            { miproyec.map(miproyec => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
+            { miproyec.map(miproyec => ( 
             <CartitaDev
-              //Props..... el 1er nombre lo creo.
                 cv={miproyec}
-                key={miproyec.id} //siempre react te pide una key=id para su manejo interno.
+                key={miproyec.id} 
             />
             )) }
             <TitulosDev
             titulo={MiEst}/>
-            { miexpdev.map(miexpdev => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
+            { miexpdev.map(miexpdev => ( 
             <CartitaDev
-              //Props..... el 1er nombre lo creo.
                 cv={miexpdev}
-                key={miexpdev.id} //siempre react te pide una key=id para su manejo interno.
+                key={miexpdev.id} 
             />
             )) }
 

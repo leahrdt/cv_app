@@ -67,22 +67,20 @@ componentDidMount() {
         
         <TitulosM
         titulo={MiExp}/>
-        { miexp.map(miexp => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
+        { miexp.map(miexp => ( 
         <CartitaGeoM
-          //Props..... el 1er nombre lo creo.
             cv={miexp}
-            key={miexp.id} //siempre react te pide una key=id para su manejo interno.
+            key={miexp.id} 
         />
         )) }
         
             
         <TitulosM
         titulo={MiEst}/>
-        { midata.map(midata => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
+        { midata.map(midata => ( 
         <CartitaGeoM
-          //Props..... el 1er nombre lo creo.
             cv={midata}
-            key={midata.id} //siempre react te pide una key=id para su manejo interno.
+            key={midata.id} 
         />
         )) }
         
@@ -116,21 +114,19 @@ componentDidMount() {
             <Space/>
             <Titulos
             titulo={MiEst}/>
-            { midata.map(midata => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
+            { midata.map(midata => ( 
             <Cartita
-              //Props..... el 1er nombre lo creo.
                 cv={midata}
-                key={midata.id} //siempre react te pide una key=id para su manejo interno.
+                key={midata.id} 
             />
             ))}
 
             <Titulos
             titulo={MiExp}/>
-            { miexp.map(miexp => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
+            { miexp.map(miexp => ( 
             <Cartita
-              //Props..... el 1er nombre lo creo.
                 cv={miexp}
-                key={miexp.id} //siempre react te pide una key=id para su manejo interno.
+                key={miexp.id} 
             />
             ))}
 

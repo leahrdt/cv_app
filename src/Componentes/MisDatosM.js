@@ -110,8 +110,8 @@ export const MisDatosM = (props) => {
           className={classes.Titulo3}
           expandIcon={<ExpandMoreIcon 
             classes={{
-              root: classes.root, // class name, e.g. `classes-nesting-root-x`
-              label: classes.label, // class name, e.g. `classes-nesting-label-x`
+              root: classes.root,
+              label: classes.label, 
             }}
             />}
           aria-controls="panel1a-content"

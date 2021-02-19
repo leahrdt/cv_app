@@ -9,42 +9,6 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 import Link from '@material-ui/core/Link';
 
-// const useStyles = makeStyles((theme) => ({
-//   root: {
-//     width: 'auto',
-//     margin: 5,
-//   },  
-//   acord: {
-//     backgroundColor: '#404040',
-//     opacity: 0.95,
-//     marginBottom: 3,
-    
-    
-//   },
-//   heading: {
-//     fontSize: theme.typography.pxToRem(17),
-//     flexBasis: '63.33%',
-//     flexShrink: 0,
-//     borderRadius: 1,
-//     color: "white", 
-        
-//   },
-//   secondaryHeading: {
-//     fontSize: theme.typography.pxToRem(17),
-//     color: theme.palette.text.secondary,
-//     color: "black",
-    
-//     animation: 'lineal 5s linear alternate infinite',
-//   },
-// p: {
-//   fontSize: theme.typography.pxToRem(17),
-//   flexBasis: '100%',
-//   flexShrink: 0,
-//   borderRadius: 1,
-//   color: "white",
-  
-// },
-// }));
 
 import ListItemText from '@material-ui/core/ListItemText';
 const useStyles = makeStyles((theme) => ({
@@ -102,7 +66,6 @@ export const CartitaDevM = (props) => {
       setExpanded(isExpanded ? panel : false);
     };
 
-    // {props.cv.titulo}
     return (
 
       <div className={classes.root}>

@@ -37,11 +37,10 @@ componentDidMount() {
             titulo={MiExp}/>
         </AccordionSummary>
 
-      { miexp.map(miexp => ( //Funcion .map me trnsforma la lista, en la vista que le estoy pasando.
+      { miexp.map(miexp => ( 
       <Cartita
-        //Props..... el 1er nombre lo creo.
           cv={miexp}
-          key={miexp.id} //siempre react te pide una key=id para su manejo interno.
+          key={miexp.id} 
       />)) }
       </Accordion>
 
