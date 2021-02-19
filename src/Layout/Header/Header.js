@@ -133,7 +133,7 @@ export const Header = () => {
         className={classes.botonContacto}
         
         endIcon={<WhatsAppIcon />}
-      ><Link color='inherit' href="https://api.whatsapp.com/send?phone=5492392536414&text=Hola%20Leandro%20." >
+      ><Link color='inherit' href="https://api.whatsapp.com/send?phone=5492392536414&text=Hola%20." >
           Contacto
           </Link> 
       </Button>
