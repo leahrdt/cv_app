@@ -23,8 +23,8 @@ export const getMiCarreraDev = () => [
     detalle1: 'Conocimientos principales: ',
     detalle2: '•	Desarrollo con ReactJS ',
     detalle3: '•  Uso de: Componentes, Props y States ',
-    detalle4: '•  Renderización desde el lado del cliente',
-    detalle5: '•	Implementación de Redux y Routers ',
+    detalle4: '•  Implementación de librerias: Redux y Routers',
+    detalle5: '•	Uso Hooks y Context para el manejo del State',
     logo: 'https://i.ibb.co/XtRZLVm/4.png',
   },
   {
