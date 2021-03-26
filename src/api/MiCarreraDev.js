@@ -53,9 +53,23 @@ export const getMiCarreraDev = () => [
     detalle3: '•  Desarrollo de aplicaciones con apariencia de una app nativa instalada en el celular',
     logo: 'https://i.ibb.co/GCL82Z7/11png.png',
   },
+  {
+    id: '5',
+    titulo: 'PYTHON',
+    lugar: 'EDUCACIÓN IT',
+    tiempo: '',
+    lugaresp: '',
+    otros: 'Materias Cursadas: PYTHON PROGRAMING',
+    detalle1: 'Conocimientos principales',
+    detalle2: '•	Manejar las estructuras de datos y controles de flujo',
+    detalle3: '•  Instalar y utilizar módulos, paquetes y librerías de terceros',
+    detalle4: '•  Interactuar con servicios web RESTful.',
+    detalle5: '•  Desplegar soluciones rápidas y con poco costo de mantenimiento.',
+    logo: 'https://i.ibb.co/qCL181p/images.png',
+  },
 
     {
-      id: '5',
+      id: '6',
       titulo: 'MAQUETADO WEB - HTML5 y CSS3',
       lugar: 'EDUCACIÓN IT',
       tiempo: '',
@@ -71,7 +85,7 @@ export const getMiCarreraDev = () => [
     },
 
     {
-      id: '6',
+      id: '7',
       titulo: 'HTML 5',
       lugar: 'EDUCACIÓN IT',
       tiempo: '',
@@ -86,7 +100,7 @@ export const getMiCarreraDev = () => [
       logo: 'https://i.ibb.co/0qf83gV/images.jpg',
     },
     {
-      id: '7',
+      id: '8',
       titulo: 'MONGO DB',
       lugar: 'EDUCACIÓN IT',
       tiempo: '',
