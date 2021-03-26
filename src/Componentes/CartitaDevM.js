@@ -50,12 +50,16 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: '3%',
   },
 p: {
-  fontSize: theme.typography.pxToRem(14),
+  fontSize: theme.typography.pxToRem(15),
   flexBasis: '95%',
   flexShrink: 0,
   borderRadius: 1,
   color: "white",
 },
+link:{
+  fontSize: theme.typography.pxToRem(17),
+  color:"yellow"
+}
 }));
 
 export const CartitaDevM = (props) => {
@@ -118,7 +122,8 @@ export const CartitaDevM = (props) => {
         <br />
         {props.cv.detalle5}
         <br />
-        <Link href={props.cv.detalle6}  color="inherit">
+        <Link className={classes.link}
+        href={props.cv.detalle6}  color="inherit">
     {props.cv.detalle6}
         </Link>
 </Typography>
