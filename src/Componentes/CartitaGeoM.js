@@ -16,7 +16,8 @@ const useStyles = makeStyles((theme) => ({
     margin: 5,
   },  
   acord: {
-    opacity: 0.95,
+    opacity: 0.9,
+    backgroundColor: '#343A40',
   },
   heading0: {
     width: '7%',
@@ -26,25 +27,25 @@ const useStyles = makeStyles((theme) => ({
     marginRight: 15,
     flexBasis: '65.33%',
     flexShrink: 0,
-    color: "black",
+    color: "white",
   },
   heading2: {
     fontSize: theme.typography.pxToRem(10),
     flexBasis: '53.33%',
     flexShrink: 0,
-    color: "GREY",
+    color: "#959595",
   },
   secondaryHeading: {
     fontSize: theme.typography.pxToRem(10),
     color: theme.palette.text.secondary,
-    color: "black",
+    color: "white",
   },
 p: {
   fontSize: theme.typography.pxToRem(14),
   flexBasis: '95%',
   flexShrink: 0,
   borderRadius: 1,
-  color: "black",
+  color: "white",
 },
 }));
 

@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: 'white',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        opacity: 0.9,
+        opacity: 1,
 
     }
 

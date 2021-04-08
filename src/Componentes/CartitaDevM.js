@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
   acord: {
     opacity: 0.95,
     
- backgroundColor: '#484848',
+ backgroundColor: '#EDF2F4',
   },
   heading0: {
     width: '7%',
@@ -29,23 +29,23 @@ const useStyles = makeStyles((theme) => ({
     marginRight: 15,
     flexBasis: '65.33%',
     flexShrink: 0,
-    color: "white",
+    color: "black",
   },
   heading2: {
     fontSize: theme.typography.pxToRem(10.5),
     flexBasis: '53.33%',
     flexShrink: 0,
-    color: "#919191",
+    color: "#white",
   },
   secondaryHeading: {
     fontSize: theme.typography.pxToRem(10),
     color: theme.palette.text.secondary,
-    color: "white",
+    color: "black",
   },
   titulo4: {
     fontSize: theme.typography.pxToRem(15),
     color: theme.palette.text.secondary,
-    color: "#999999",
+    color: "#black",
     
     marginLeft: '3%',
   },
@@ -54,11 +54,11 @@ p: {
   flexBasis: '95%',
   flexShrink: 0,
   borderRadius: 1,
-  color: "white",
+  color: "black",
 },
 link:{
   fontSize: theme.typography.pxToRem(17),
-  color:"yellow"
+  color:"blue"
 }
 }));
 
