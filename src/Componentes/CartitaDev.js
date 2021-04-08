@@ -21,13 +21,15 @@ const useStyles = makeStyles((theme) => ({
     padding: '0px',
     alignContent: 'center',
     margin: 4,
+    
+    borderRadius: 500,
   },
 
   root: {
     backgroundColor: '#313131',
     marginRight: '4%',
     marginLeft: '4%',
-    opacity: 0.8,
+    opacity: 0.95,
     padding: '0px',
   },
 
@@ -82,6 +84,10 @@ const useStyles = makeStyles((theme) => ({
       p: {
         color: 'white',
         
+      },
+      link:{
+        fontSize: theme.typography.pxToRem(17),
+        color:"yellow"
       },
   }));
 
@@ -154,7 +160,7 @@ export const CartitaDev = (props) => {
 
         {props.cv.detalle5}
         <br />
-        <Link href={props.cv.detalle6}  color="inherit">
+        <Link className={classes.link} href={props.cv.detalle6}  color="inherit">
     {props.cv.detalle6}
         </Link>
         </Typography>

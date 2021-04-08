@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
       padding:0,
       textSize: 555,
       textAlign: 'center',
-      fontSize: theme.typography.pxToRem(30),
+      fontSize: theme.typography.pxToRem(50),
       fontWeight: theme.typography.fontWeightRegular,
       fontFamily: 'JetBrains Mono',
       padding: 12,
