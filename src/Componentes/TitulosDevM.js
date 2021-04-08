@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
     color: 'white',
     padding:0,
     textAlign: 'center',
-    backgroundColor: 'black',
+    backgroundColor: '#313131',
       fontSize: theme.typography.pxToRem(20),
       fontWeight: theme.typography.fontWeightRegular,
       fontFamily: 'JetBrains Mono',
